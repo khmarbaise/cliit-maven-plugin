@@ -1,0 +1,87 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.soebes.smpp</groupId>
+    <artifactId>smpp</artifactId>
+    <version>0.5</version>
+  </parent>
+
+  <groupId>com.soebes.maven.plugins</groupId>
+  <artifactId>cliit-maven-plugin</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>maven-plugin</packaging>
+
+  <name>Maven Command Line Interface Integration Test Plugin</name>
+  <description>XXX</description>
+  <url>https://github.com/khmarbaise/cliit-maven-plugin</url>
+  <inceptionYear>2012</inceptionYear>
+
+  <issueManagement>
+    <system>default</system>
+    <url>https://github.com/khmarbaise/cliit-maven-plugin/issues</url>
+  </issueManagement>
+
+  <properties>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <scm>
+    <developerConnection>scm:git:git@github.com:khmarbaise/cliit-maven-plugin.git</developerConnection>
+    <connection>scm:git:git://github.com/khmarbaise/cliit-maven-plugin.git</connection>
+    <url>https://github.com/khmarbaise/cliit-maven-plugin</url>
+  </scm>
+
+
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
+    <plugins>
+      <plugin>
+      </plugin>
+    </plugins>
+
+  </build>
+
+
+  <dependencies>
+  
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>3.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.maven.shared</groupId>
+      <artifactId>maven-invoker</artifactId>
+      <version>2.1.1</version>
+    </dependency>
+  </dependencies>
+
+</project>

@@ -8,13 +8,13 @@ location of CLI integration tests:
 	         +-- (sub folders if needed)
 	         +-- supplemental files
 	         +-- setup.(sh,bat,groovy)
-	         +-- execute.(sh,bat)
+	         +-- execute.(sh,bat,groovy)
 	         +-- verify.(sh,bat,groovy)
 	    +-- test2
 	         +-- (sub folders if needed)
 	         +-- supplemental files
 	         +-- setup.(sh,bat,groovy)
-	         +-- execute.(sh,bat)
+	         +-- execute.(sh,bat,groovy)
 	         +-- verify.(sh,bat,groovy)
 
 
